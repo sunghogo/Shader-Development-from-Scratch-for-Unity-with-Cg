@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: AllProps
-  m_Shader: {fileID: 4800000, guid: bcff02ff7ae58b147add90affafdcf33, type: 3}
+  m_Shader: {fileID: 4800000, guid: 71d1dabeefec3ad42be6bf05a9d44170, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -61,6 +61,14 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _myCube:
         m_Texture: {fileID: 8900000, guid: 18ec2d52be8f4524a97c25a2ed27838e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _myDiffuseTex:
+        m_Texture: {fileID: 2800000, guid: 6af56dafa2b4d8f4db5919caf18285fb, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _myEmissionTex:
+        m_Texture: {fileID: 2800000, guid: 4912ca5d727cf1048b053beca9bcf9a2, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _myTex:
