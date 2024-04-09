@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: AllProps
-  m_Shader: {fileID: 4800000, guid: 45714d7db61ba13418815e25098eb90c, type: 3}
+  m_Shader: {fileID: 4800000, guid: bcff02ff7ae58b147add90affafdcf33, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -92,7 +92,7 @@ Material:
     - _AmbientColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 0.091, g: 0, b: 0.68275833, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
-    - _myColor: {r: 1, g: 0.72255117, b: 0.46226418, a: 1}
+    - _myColor: {r: 0, g: 1, b: 0, a: 1}
     - _myEmission: {r: 0.28169727, g: 0, b: 1, a: 1}
     - _myNormal: {r: 1, g: 1, b: 1, a: 1}
     - _myVector: {r: 0.5, g: 1, b: 1, a: 1}
