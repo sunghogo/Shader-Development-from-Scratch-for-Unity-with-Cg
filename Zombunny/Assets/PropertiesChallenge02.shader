@@ -1,4 +1,4 @@
-Shader "Custom/PropChallenge2"
+Shader "Holistic/PropChallenge2"
 {
     Properties
     {
