@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Material
-  m_Shader: {fileID: 4800000, guid: f5a846d4b44701649ad1c843873732c4, type: 3}
+  m_Shader: {fileID: 4800000, guid: 0a5585352ce31b24fa99446ebce61d47, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -105,9 +105,10 @@ Material:
     - _bumpAmount: 1
     - _bumpScale: 2
     - _bumpSlider: 1
+    - _myBright: 0.92
     - _myFloat: 0.5
     - _myRange: 0.6
-    - _mySlider: 1.5
+    - _mySlider: 1
     m_Colors:
     - _AmbientColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 0.091, g: 0, b: 0.68275833, a: 1}
