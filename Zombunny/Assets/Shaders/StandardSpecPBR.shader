@@ -25,7 +25,6 @@ Shader "Holistic/StandardSpecPBR" {
             o.Smoothness = tex2D(_metallicTex, IN.uv_metallicTex).r;
             o.Specular = _SpecColor.rgb;
         }
-
         ENDCG
     }
 

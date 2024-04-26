@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Zombunny
-  m_Shader: {fileID: 4800000, guid: e8866b893c4a8b848bab943b5358e1e2, type: 3}
+  m_Shader: {fileID: 4800000, guid: 74ec1c52e2dd6f044af1bd7ee448acbd, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
