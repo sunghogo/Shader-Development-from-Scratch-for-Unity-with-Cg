@@ -1,4 +1,4 @@
-Shader "Holistic/ToonRampAlbedo" {
+Shader "Holistic/ToonRampChallenge03" {
     Properties {
         _Color ("Color" , Color) = (1, 1, 1, 1)
         _RampTex ("Ramp Texture", 2D) = "white" {}
