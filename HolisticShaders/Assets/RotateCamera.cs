@@ -3,9 +3,9 @@ using UnityEngine;
 public class RotateCamera : MonoBehaviour
 {
     [SerializeField] [Range(0, 360)] private float _currentAngle = 0;
-    [SerializeField] [Range(25, 200)] private float _rotationSpeed = 25f;
-    [SerializeField] [Range(2, 20)] private float _distance = 10f;
-    [SerializeField] [Range(-10, 10)] private float _height = 2f;
+    [SerializeField] [Range(25, 200)] private float _rotationSpeed = 100f;
+    [SerializeField] [Range(2, 20)] private float _distance = 5f;
+    [SerializeField] [Range(-10, 10)] private float _height = 0f;
     [SerializeField] private bool _lookAt = true;
     [SerializeField] private bool _stopRotation = false;
 
