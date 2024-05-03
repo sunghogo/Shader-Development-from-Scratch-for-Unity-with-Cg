@@ -8,19 +8,22 @@ public class RotateCamera : MonoBehaviour
     [SerializeField] [Range(-10, 10)] private float _height = 0f;
     [SerializeField] private bool _lookAt = true;
     [SerializeField] private bool _stopRotation = false;
+    [SerializeField] private GameObject _target;
+    [SerializeField] private Vector3 _targetPos;
 
 
     void LateUpdate()
     {
+        _targetPos = _target is not null ? _target.transform.position : Vector3.zero;
         Rotate();
     }
 
     private void Rotate() {
         if (!_stopRotation) _currentAngle = _currentAngle <= 360 ? _currentAngle + Time.deltaTime * _rotationSpeed : _currentAngle - 360 + Time.deltaTime * _rotationSpeed;
 
-        transform.position = Vector3.Slerp(transform.position, new Vector3(Mathf.Sin(Mathf.Deg2Rad * _currentAngle) * _distance, _height, Mathf.Cos(Mathf.Deg2Rad * _currentAngle) * _distance), 1);
+        transform.position = Vector3.Slerp(transform.position, new Vector3(_targetPos.x + Mathf.Sin(Mathf.Deg2Rad * _currentAngle) * _distance, _targetPos.y + _height, _targetPos.z + Mathf.Cos(Mathf.Deg2Rad * _currentAngle) * _distance), 1);
 
-        if (_lookAt) transform.LookAt(Vector3.zero);
-        else transform.LookAt(new Vector3(0, _height, 0));
+        if (_lookAt) transform.LookAt(_targetPos);
+        else transform.LookAt(new Vector3(_targetPos.x, _height, _targetPos.z));
     }
 }
